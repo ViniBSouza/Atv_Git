@@ -1,0 +1,11 @@
+float calc_media(int *vet){
+int i;
+float media=0;
+
+imprime_vetor(vet); 
+for(i=0;i<10;i++){
+	media = media + vet[i];
+}
+	
+	return media/10;
+}	
