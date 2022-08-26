@@ -1,0 +1,8 @@
+void gera_vetor(int *vet){
+int i;
+
+vet = (int*)calloc(10, sizeof(int));
+for(i=0; i<10;i++)
+	vet[i]=rand()%9;		
+		
+}
