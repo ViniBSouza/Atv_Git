@@ -1,0 +1,11 @@
+float calc_mediana(int *vet){
+float mediana;
+int i;
+
+imprime_vetor(vet); 
+for(i=0;i<10;i++){
+	mediana = (vet[4] + vet[5]) / 2;
+}
+
+	return mediana;
+}
