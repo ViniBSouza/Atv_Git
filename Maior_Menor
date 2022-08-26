@@ -1,0 +1,8 @@
+void maior_menor(int *vet){
+int i;
+
+imprime_vetor(vet);
+	printf("\nMenor dado = %d", vet[0]);
+	printf("\nMaior dado = %d", vet[9]);
+
+}
